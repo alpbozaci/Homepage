@@ -32,13 +32,15 @@
             <password>sa</password>
         </security>
         -->
+        
         <connection-url>jdbc:mysql://localhost:3306/homepage</connection-url>
         <driver-class>com.mysql.jdbc.Driver</driver-class>
-        <driver>mysql-connector-java-5.1.46-bin.jar_com.mysql.jdbc.Driver_5_1</driver>
+        <driver>mysql-connector-java-5.1.12-bin</driver>
         <security>
             <user-name>root</user-name>
-            <password>admin</password>
+            <password>root</password>
         </security>
+        
     </datasource>
 </datasources>
  
